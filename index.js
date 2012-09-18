@@ -11,7 +11,6 @@ app.get('/', function(req, res){
   res.send('Hello World');
 });
 
-
 var users = [
   { name: 'tobi', age: '10' },
   { name: 'loki', age: '20' },
