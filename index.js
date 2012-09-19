@@ -33,7 +33,7 @@ app.get('/webservice/:name', function(req, res, next) {
     var user = users[i];
 
     if (user.name == userName) {
-      return res.send(user.email);
+      return res.send(user);
     }
     return res.send('Name not found.');
   }
